@@ -7,7 +7,14 @@
   \********************/
 /***/ (() => {
 
-
+var stok = document.querySelector("#stok");
+var produk = document.querySelector("#produk");
+stok.addEventListener("click", function () {
+  stok.classList.toggle("active");
+});
+produk.addEventListener("click", function () {
+  produk.classList.toggle("active");
+});
 
 /***/ }),
 

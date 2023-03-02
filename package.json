@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/vincomid/studi-absensi-ci/issues"
   },
-  "homepage": "https://github.com/vincomid/studi-absensi-ci#readme"
+  "homepage": "https://github.com/vincomid/studi-absensi-ci#readme",
+  "dependencies": {
+    "admin-lte": "3.2",
+    "daisyui": "^2.50.2"
+  }
 }

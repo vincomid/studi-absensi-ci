@@ -7,7 +7,15 @@ module.exports = {
     "./app/Views/**/**/**/*.php",
   ],
   theme: {
-    extend: {},
+    // container: {
+    //   center: true,
+    //   padding: "16px",
+    // },
+    extend: {
+      colors: {
+        primary: "#1d4ed8",
+      },
+    },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
