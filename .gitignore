@@ -125,3 +125,10 @@ nb-configuration.xml
 /phpunit*.xml
 /.phpunit.*.cache
 
+#-------------------------
+# Additional
+#-------------------------
+node_modules/
+
+package-lock.json
+composer.lock
